@@ -78,9 +78,11 @@ const Sidebar = () => {
                     display="flex"
                     justifyContent="space-between"
                     alignItems="center"
-                    ml="15apx"
+                    ml="15px"
                     >
-                        <Typography variant="h3" color={colors.grey[100]}>
+                        <Typography 
+                        variant="h3" 
+                        color={colors.grey[100]}>
                             Admins
                         </Typography>
                         <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
