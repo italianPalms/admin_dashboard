@@ -33,3 +33,7 @@ body,
 ::-webkit-scrolblbar-track:hover {
   background: #555
 }
+
+::selection {
+  color: #FF10F0;
+}
